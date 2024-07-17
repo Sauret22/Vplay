@@ -1,0 +1,46 @@
+/* Basic footer styling */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .footer-info {
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  .footer-info a {
+    color: #080808;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer-redes {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .footer-redes a {
+    color: #070707;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  
+  /* Replace with your own font awesome icons */
+  .fab {
+    font-family: "Font Awesome 5 Free";
+  }
+  

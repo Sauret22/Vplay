@@ -1,0 +1,68 @@
+/* Background */
+body {
+    background-color: #f8f9fa;
+  }
+  
+  /* Container */
+  .video {
+    display: flex; /* Arrange videos in a row */
+    flex-wrap: wrap; /* Wrap videos to the next line if they overflow */
+    width: 100%; /* Adjust width based on video count */
+    margin: 0 auto; /* Center the container horizontally */
+    border: 1px solid #ddd; /* Optional border */
+    border-radius: 5px; /* Optional rounded corners */
+    position: relative;
+  }
+  
+  /* Video Image */
+  .foto {
+    width: 200px; /* Width for the video image */
+    overflow: hidden; /* Prevent image overflow */
+    background-color: #dfe1e3; /* Slightly darker background for image container */
+  }
+  
+  .foto img {
+    width: 100%; /* Stretch image to fill container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Info Section */
+  .info {
+    flex: 1; /* Allow info section to fill remaining space */
+    padding: 10px; /* Add padding for content */
+  }
+  
+  /* Title */
+  .info h4 {
+    margin-bottom: 5px; /* Add space below title */
+    color: #f9f6f6; /* Contrasting color for title */
+  }
+  
+  /* Link */
+  .info h5 a {
+    color: #ffffff; /* Vibrant color for video link */
+    text-decoration: none; /* Remove underline initially */
+    transition: color 0.3s ease; /* Add hover transition */
+  }
+  
+  .info h5 a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #0056b3; /* Darker shade on hover */
+  }
+  
+  /* Description */
+  .info h6 {
+    color: #ffffff; /* Medium-gray color for description text */
+    margin-top: 5px; /* Add space above description */
+  }
+  .eliminar{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+  }
+
+  .edit{
+    position: absolute;
+    right: 10px;
+    top: 40px;
+  }
